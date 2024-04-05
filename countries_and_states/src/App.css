@@ -1,0 +1,73 @@
+* {
+  text-align: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+}
+
+.App {
+  text-align: center;
+}
+
+
+
+.App-header {
+  margin-left: 0;
+  background-color: black;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.dropdown {
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+button, 
+input {
+  box-sizing: border-box;
+  width: 40%;
+  background-color: whitesmoke;
+  font-size: 1rem;
+  color: #000;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.selectCountry {
+  padding-right: 3.5rem;
+}
+
+.menu_list {
+  text-decoration: none;
+  display: flex;
+  row-gap: 1rem;
+  font-size: 1.8rem;
+  list-style-type: none;
+}
+
+:link {
+  text-decoration: none;
+  text-align: left;
+  color: white;
+
+}
+
+.stateCountrySelect {
+  display: flex;
+  justify-content: center;
+}
+
